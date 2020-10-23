@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "rollup -c",
+    "devSass": "rollup -c -w & node-sass -w public/global.scss public/global.css --output-style compressed",
     "dev": "rollup -c -w",
     "start": "sirv public"
   },
